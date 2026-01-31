@@ -1,0 +1,39 @@
+[gd_scene format=3 uid="uid://b12ku5obo67lq"]
+
+[ext_resource type="Texture2D" uid="uid://dofbeox1fx1i5" path="res://Assets/sprites/BackgroundPlaceholder.png" id="1_kc7sw"]
+[ext_resource type="Texture2D" uid="uid://qe5gm7xgbqto" path="res://Assets/sprites/tree.png" id="2_lf6h2"]
+
+[node name="Background" type="Node2D" unique_id=1899105601]
+
+[node name="Parallax2D" type="Parallax2D" parent="." unique_id=933418419]
+repeat_size = Vector2(730, 510)
+
+[node name="BackgroundPlaceholder" type="Sprite2D" parent="Parallax2D" unique_id=1910796103]
+position = Vector2(32, 48)
+scale = Vector2(0.70387703, 0.64656866)
+texture = ExtResource("1_kc7sw")
+
+[node name="Parallax2D2" type="Parallax2D" parent="." unique_id=2143988039]
+repeat_size = Vector2(80, 80)
+
+[node name="Tree3" type="Sprite2D" parent="Parallax2D2" unique_id=42155378]
+position = Vector2(-32.000004, 40)
+scale = Vector2(0.008472968, 0.008541871)
+texture = ExtResource("2_lf6h2")
+
+[node name="Parallax2D3" type="Parallax2D" parent="." unique_id=105601565]
+visible = false
+
+[node name="Tree2" type="Sprite2D" parent="Parallax2D3" unique_id=2058054707]
+visible = false
+position = Vector2(-95.99999, 40)
+scale = Vector2(0.008472968, 0.008541871)
+texture = ExtResource("2_lf6h2")
+
+[node name="Parallax2D4" type="Parallax2D" parent="." unique_id=180337883]
+
+[node name="Tree" type="Sprite2D" parent="Parallax2D4" unique_id=827230683]
+visible = false
+position = Vector2(32, 40)
+scale = Vector2(0.008472968, 0.008541871)
+texture = ExtResource("2_lf6h2")
